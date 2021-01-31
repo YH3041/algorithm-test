@@ -13,11 +13,15 @@ public class Factorization {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
+        int i = 2;
 
-        if(n >= 1 && n <= 10000000) {
-
-        } else {
-            System.out.println("");
+        while (n >= i) {
+            if (n % i == 0) {
+                System.out.println(i);
+                n /= i;
+            } else {
+                i++;
+            }
         }
     }
 }

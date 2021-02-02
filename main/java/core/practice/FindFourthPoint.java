@@ -13,6 +13,7 @@ public class FindFourthPoint {
         int x1 = sc.nextInt();
         int y1 = sc.nextInt();
 
+
         int x2 = sc.nextInt();
         int y2 = sc.nextInt();
 
